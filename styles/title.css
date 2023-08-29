@@ -1,0 +1,9 @@
+.title {
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    padding: 0.5rem 1rem;
+    background-color: #000;
+    color: #fff;
+    margin: 0;
+    margin-bottom: 1rem;
+}

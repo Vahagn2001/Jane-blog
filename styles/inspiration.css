@@ -1,0 +1,16 @@
+.inspiration {
+    padding: 0;
+    background-color: #ffffff;
+    margin-bottom: 3rem;
+}
+
+.inspiration__img-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.inspiration__img {
+    width: 50%;
+    padding: 1rem;
+}

@@ -1,0 +1,15 @@
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.nav-menu__list {
+    display: flex;
+}
+

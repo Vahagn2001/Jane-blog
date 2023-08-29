@@ -1,0 +1,13 @@
+.advertise__block {
+    padding: 1rem;
+    background-color: #ffffff;
+    margin-bottom: 3rem;
+}
+
+.advertise__text {
+    height: 20rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #dfdfdf;
+}

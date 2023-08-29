@@ -1,0 +1,47 @@
+.reply-block__img {
+    width: 9rem;
+    margin-right: 2rem;
+}
+
+.reply-block__person {
+    text-align: left;
+    margin-top: 1.8rem;
+}
+
+.reply-block__person-name {
+    font-size: 2rem;
+}
+
+.reply-block__description {
+    opacity: 0.6;
+    font-size: 1.6rem;
+}
+
+.reply-block__list-item {
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+.reply-block--sm {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 2rem;
+    background-color: #ffffff;
+    border-top: 0.5px solid #ccc;
+    transition: 0.3s;
+}
+
+.reply-block--sm:hover {
+    background-color: #ccc;
+}
+
+.reply-block__img--sm {
+    width: 5rem;
+    object-fit: contain;
+}
+
+.reply-block__person--sm {
+    padding-left: 1rem;
+    margin-top: 0;
+}

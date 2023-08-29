@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jane Bloglife</title>
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/global.css">
+    <link rel="stylesheet" href="./styles/button.css">
+    <link rel="stylesheet" href="./styles/title-block.css">
+    <link rel="stylesheet" href="./styles/nav-menu.css">
+    <link rel="stylesheet" href="./styles/main-section.css">
+    <link rel="stylesheet" href="./styles/footer-section.css">
+    <link rel="stylesheet" href="./styles/fashion-blog.css">
+    <link rel="stylesheet" href="./styles/article.css">
+    <link rel="stylesheet" href="./styles/reply-block.css">
+    <link rel="stylesheet" href="./styles/container.css">
+    <link rel="stylesheet" href="./styles/description-block.css">
+    <link rel="stylesheet" href="./styles/advertise.css">
+    <link rel="stylesheet" href="./styles/aside.css">
+    <link rel="stylesheet" href="./styles/list-item.css">
+    <link rel="stylesheet" href="./styles/list.css">
+    <link rel="stylesheet" href="./styles/inspiration.css">
+    <link rel="stylesheet" href="./styles/social.css">
+    <link rel="stylesheet" href="./styles/subscribe.css">
+
+</head>
+
+<body>
+    <header>
+        <nav class="nav-menu">
+            <ul class="nav-menu__list">
+                <li class="nav-menu__list-item">
+                    <a href="#" class="nav-menu__link button">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </li>
+                <li class="nav-menu__list-item">
+                    <a href="#" class="nav-menu__link button">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </li>
+                <li class="nav-menu__list-item">
+                    <a href="#" class="nav-menu__link button">
+                        <i class="fa-brands fa-snapchat"></i>
+                    </a>
+                </li>
+                <li class="nav-menu__list-item">
+                    <a href="#" class="nav-menu__link button">
+                        <i class="fa-brands fa-flickr"></i>
+                    </a>
+                </li>
+                <li class="nav-menu__list-item">
+                    <a href="#" class="nav-menu__link button">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                </li>
+                <li class="nav-menu__list-item">
+                    <a href="#" class="nav-menu__link button">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                </li>
+            </ul>
+
+            <button type="button" class="nav-menu__search button">
+                <i class="fa fa-search"></i>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <section class="main-section" id="main-section">
+            <h2 class="main-section__title">Jane Bloglife</h2>
+            <p class="main-section__description title-font">
+                Welcome to the blog of <strong class="main-section__description main-section__description--name">Jane's
+                    world</strong>
+            </p>
+        </section>
+
+        <section class="fashion-blog">
+            <h2 class="fashion-blog__title">Jane's <strong class="fashion-blog__title fashion-blog__title--big">Fashion
+                    Blog</strong></h2>
+
+            <button type="button" class="fashion-blog__btn button button--transparent button--lg title-font">
+                Subscribe
+            </button>
+
+            <img class="fashion-blog__img" src="./images/jane.jpeg" alt="Jane photo">
+        </section>
+
+        <div class="container">
+            <div class="container__articles">
+                <article class="article">
+                    <h2 class="article__title title-font">Title Heading</h2>
+
+                    <p class="article__description">
+                        Title description,
+                        <strong class="article__description--sm title-font">
+                            May 2, 2016
+                        </strong>
+                    </p>
+
+                    <img src="./images/hat.jpeg" alt="hat" class="article__img">
+
+                    <p class="article__text">
+                        More Hats! I am crazy about hats these days. Some text about this blog entry.
+                        Fashion fashion and mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed
+                        mattis
+                        nunc
+                        id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus
+                        sed
+                        ultricies mi non congue ullam corper. Praesent tincidunt sedtellus ut rutrum. Sed vitae justo
+                        condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.
+                    </p>
+
+                    <p class="article__text">
+                        Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed
+                        do
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                        nostrud
+                        exercitation ullamco.
+                    </p>
+
+                    <div class="article__btn">
+                        <button type="button" class="button button--outlined">
+                            <i class="fa fa-thumbs-up"></i>
+                            Like
+                        </button>
+
+                        <button type="button" class="button">
+                            Replies
+                            <strong class="button__text">1</strong>
+                        </button>
+                    </div>
+
+                    <hr>
+
+                    <div class="article__block reply-block">
+                        <img src="./images/avatar.jpeg" alt="profile photo" class="reply-block__img">
+
+                        <div class="reply-block__person">
+                            <p class="reply-block__person-name title-font">
+                                George
+                                <strong class="reply-block__description title-font">
+                                    May 3, 2015, 6:32 PM
+                                </strong>
+                            </p>
+
+                            <p class="reply-block__block-comment">
+                                Great blog post! Following
+                            </p>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="article">
+                    <h2 class="article__title title-font">Title Heading</h2>
+
+                    <p class="article__description title-font">
+                        Title description,
+                        <strong class="article__description--sm title-font">
+                            April 23, 2016
+                        </strong>
+                    </p>
+
+                    <img src="./images/man_hat.jpeg" alt="hat" class="article__img">
+
+                    <p class="article__text">
+                        Hats! The trend this summer is hats for men!
+                    </p>
+
+                    <p class="article__text">
+                        Some text about this blog entry. Fashion fashion and mauris neque quam, fermentum ut nisl vitae,
+                        convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim,
+                        ac
+                        accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent
+                        tincidunt
+                        sedtellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida
+                        diam
+                        non
+                        fringilla.
+                    </p>
+
+                    <div class="article__btn">
+                        <button type="button" class="button button--outlined">
+                            <i class="fa fa-thumbs-up"></i>
+                            Like
+                        </button>
+
+                        <button type="button" class="button">
+                            Replies
+                            <strong class="button__text">2</strong>
+                        </button>
+                    </div>
+
+                    <hr>
+
+                    <div class="article__block reply-block">
+                        <ul class="reply-block__list">
+                            <li class="reply-block__list-item">
+                                <img src="./images/girl.jpeg" alt="girl" class="reply-block__img">
+
+                                <div class="reply-block__person">
+                                    <p class="reply-block__person-name title-font">
+                                        Amber
+                                        <strong class="reply-block__description title-font">
+                                            April 26, 2015, 10:52 PM
+                                        </strong>
+                                    </p>
+
+                                    <p class="reply-block__block-comment">
+                                        Love your blog page! Simply the best! Lorem ipsum dolor sit amet, consectetur
+                                        adipiscing
+                                        elit,
+                                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                    </p>
+                                </div>
+                            </li>
+
+                            <li class="reply-block__list-item">
+                                <img src="./images/girl_train.jpeg" alt="girl girl_train" class="reply-block__img">
+                                <div class="reply-block__person">
+                                    <p class="reply-block__person-name title-font">
+                                        Angie
+                                        <strong class="reply-block__description title-font">
+                                            April 23, 2015, 9:12 PM
+                                        </strong>
+                                    </p>
+
+                                    <p class="reply-block__block-comment">
+                                        Love hats!!
+                                    </p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </article>
+
+
+                <article class="article">
+                    <h2 class="article__title title-font">Title Heading</h2>
+
+                    <p class="article__description title-font">
+                        Title description,
+                        <strong class="article__description--sm title-font">
+                            April 7, 2016
+                        </strong>
+                    </p>
+
+                    <img src="./images/runway.jpeg" alt="hat" class="article__img">
+
+                    <p class="article__text">
+                        Dont miss! The runway in New York City this weekend is gonna be legendary!
+                    </p>
+
+                    <p class="article__text">
+                        Some text about this blog entry. Fashion fashion and mauris neque quam, fermentum ut nisl vitae,
+                        convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim,
+                        ac
+                        accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent
+                        tincidunt
+                        sedtellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida
+                        diam
+                        non
+                        fringilla.
+                    </p>
+
+                    <div class="article__btn">
+                        <button type="button" class="button button--outlined">
+                            <i class="fa fa-thumbs-up"></i>
+                            Like
+                        </button>
+
+                        <button type="button" class="button">
+                            Replies
+                            <strong class="button__text">3</strong>
+                        </button>
+                    </div>
+
+                    <hr>
+
+                    <div class="article__block reply-block">
+                        <ul class="reply-block__list">
+                            <li class="reply-block__list-item">
+                                <img src="./images/girl_mountain.jpeg" alt="girl" class="reply-block__img">
+
+                                <div class="reply-block__person">
+                                    <p class="reply-block__person-name title-font">
+                                        Jane
+                                        <strong class="reply-block__description title-font">
+                                            April 10, 2015, 7:22 PM
+                                        </strong>
+                                    </p>
+
+                                    <p class="reply-block__block-comment">
+                                        That was a great runway show! Thanks for everything.
+                                    </p>
+                                </div>
+                            </li>
+
+                            <li class="reply-block__list-item">
+                                <img src="./images/boy.jpeg" alt="girl girl_train" class="reply-block__img">
+                                <div class="reply-block__person">
+                                    <p class="reply-block__person-name title-font">
+                                        John
+                                        <strong class="reply-block__description title-font">
+                                            April 8, 2015, 10:32 PM
+                                        </strong>
+                                    </p>
+
+                                    <p class="reply-block__block-comment">
+                                        Keep up the GREAT work! I am cheering for you!! Lorem ipsum dolor sit amet,
+                                        consectetur
+                                        adipiscing elit, sed do eiusmod tempor incididunt.
+                                    </p>
+                                </div>
+                            </li>
+
+                            <li class="reply-block__list-item">
+                                <img src="./images/girl_hood.jpeg" alt="girl girl_train" class="reply-block__img">
+                                <div class="reply-block__person">
+                                    <p class="reply-block__person-name title-font">
+                                        Anja
+                                        <strong class="reply-block__description title-font">
+                                            April 7, 2015, 9:12 PM
+                                        </strong>
+                                    </p>
+
+                                    <p class="reply-block__block-comment">
+                                        Cant wait for the runway to start!
+                                    </p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </article>
+            </div>
+
+            <aside class="container__aside aside">
+                <section class="aside__description-block description-block">
+                    <img src="./images/avatar2.jpeg" alt="girl" class="description-block__img">
+                    <h2 class="description-block__title">My Name</h2>
+                    <p class="description-block__text">
+                        Just me, myself and I, exploring the universe of uknownment. I have a heart of love and a
+                        interest
+                        of
+                        lorem ipsum and mauris neque quam blog. I want to share my world with you.
+                    </p>
+                </section>
+
+                <section class="aside__popular-posts popular-posts">
+                    <h2 class="title-block">Popular Posts</h2>
+
+                    <div class="reply-block reply-block--sm">
+                        <img src="./images/avatar.jpeg" alt="profile photo" class="reply-block__img--sm">
+
+                        <div class="reply-block__person reply-block__person--sm">
+                            <p class="reply-block__person-name title-font">
+                                George
+                                <strong class="reply-block__description title-font">
+                                    May 3, 2015, 6:32 PM
+                                </strong>
+                            </p>
+
+                            <p class="reply-block__block-comment">
+                                Great blog post! Following
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="reply-block reply-block--sm">
+                        <img src="./images/girl.jpeg" alt="girl" class="reply-block__img--sm">
+
+                        <div class="reply-block__person reply-block__person--sm">
+                            <p class="reply-block__person-name title-font">
+                                George
+                                <strong class="reply-block__description title-font">
+                                    May 3, 2015, 6:32 PM
+                                </strong>
+                            </p>
+
+                            <p class="reply-block__block-comment">
+                                Great blog post! Following
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="reply-block reply-block--sm">
+                        <img src="./images/girl_train.jpeg" alt="girl_train" class="reply-block__img--sm">
+
+                        <div class="reply-block__person reply-block__person--sm">
+                            <p class="reply-block__person-name title-font">
+                                George
+                                <strong class="reply-block__description title-font">
+                                    May 3, 2015, 6:32 PM
+                                </strong>
+                            </p>
+
+                            <p class="reply-block__block-comment">
+                                Great blog post! Following
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="reply-block reply-block--sm">
+                        <img src="./images/girl_hood.jpeg" alt="girl_hood" class="reply-block__img--sm">
+
+                        <div class="reply-block__person reply-block__person--sm">
+                            <p class="reply-block__person-name title-font">
+                                George
+                                <strong class="reply-block__description title-font">
+                                    May 3, 2015, 6:32 PM
+                                </strong>
+                            </p>
+
+                            <p class="reply-block__block-comment">
+                                Great blog post! Following
+                            </p>
+                        </div>
+
+                    </div>
+                </section>
+
+                <section class="advertise">
+                    <h2 class="title-block">Advertise</h2>
+
+                    <div class="advertise__block">
+                        <p class="advertise__text">Your AD Here</p>
+                    </div>
+                </section>
+
+                <section class="tags">
+                    <h2 class="tags__title title-block title">Tags</h2>
+
+                    <ul class="tags__list list">
+                        <li class="tags__list-item list-item">
+                            <span class="tags__text tags__text--color">Fashion</span>
+                        </li>
+                        <li class="tags__list-item list-item"><span class="tags__text">New York</span></li>
+                        <li class="tags__list-item list-item"><span class="tags__text">London</span></li>
+                        <li class="tags__list-item list-item"><span class="tags__text">Hats</span></li>
+                        <li class="tags__list-item list-item"><span class="tags__text">Norway</span></li>
+                        <li class="tags__list-item list-item"><span class="tags__text">Sweaters</span></li>
+                        <li class="tags__list-item list-item"><span class="tags__text">Ideas</span></li>
+                        <li class="tags__list-item list-item"><span class="tags__text">Deals</span></li>
+                        <li class="tags__list-item list-item"><span class="tags__text">Accessories</span></li>
+                        <li class="tags__list-item list-item"><span class="tags__text">News</span></li>
+                        <li class="tags__list-item list-item"><span class="tags__text">Clothing</span></li>
+                        <li class="tags__list-item list-item"><span class="tags__text">Shopping</span></li>
+                        <li class="tags__list-item list-item"><span class="tags__text">Jeans</span></li>
+                        <li class="tags__list-item list-item"><span class="tags__text">Trends</span></li>
+                    </ul>
+                </section>
+
+                <section class="inspiration">
+                    <h2 class="title-block">Inspiration</h2>
+
+                    <div class="inspiration__img-list">
+                        <img class="inspiration__img" src="./images/jeansss.jpeg" alt="jeans">
+                        <img class="inspiration__img" src="./images/team4.jpeg" alt="person">
+                        <img class="inspiration__img" src="./images/team1.jpeg" alt="person">
+                        <img class="inspiration__img" src="./images/man_hat.jpeg" alt="hat">
+                    </div>
+                </section>
+
+                <section class="social">
+                    <h2 class="title-block">Follow Me</h2>
+
+                    <ul class="social__list">
+                        <li class="social__list-item">
+                            <a href="#" class="social__link">
+                                <i class="fa-brands fa-facebook"></i>
+                            </a>
+                        </li>
+                        <li class="social__list-item">
+                            <a href="#" class="social__link">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                        </li>
+
+                        <li class="social__list-item">
+                            <a href="#" class="social__link">
+                                <i class="fa-brands fa-snapchat"></i>
+                            </a>
+                        </li>
+
+                        <li class="social__list-item">
+                            <a href="#" class="social__link">
+                                <i class="fa-brands fa-flickr"></i>
+                            </a>
+                        </li>
+
+                        <li class="social__list-item">
+                            <a href="#" class="social__link">
+                                <i class="fa-brands fa-twitter"></i>
+                            </a>
+                        </li>
+
+                        <li class="social__list-item">
+                            <a href="#" class="social__link">
+                                <i class="fa-brands fa-linkedin"></i>
+                            </a>
+                        </li>
+
+                    </ul>
+                </section>
+
+                <section class="subscribe">
+                    <h2 class="title-block">Subscribe</h2>
+                    <p class="subscribe__text">
+                        Enter your e-mail below and get notified on the latest blog posts.
+                    </p>
+                    <form class="subscribe__form">
+                        <input type="email" name="email" placeholder="Enter e-mail" class="subscribe__input">
+
+                        <button type="submit" class="button button--red">Subscribe</button>
+                    </form>
+                </section>
+            </aside>
+        </div>
+    </main>
+
+    <footer class="footer-section">
+        <button class="footer-section__btn button" type="button">
+            <a href="#main-section">
+                <i class="fa fa-arrow-up w3-margin-right"></i>
+                To the top
+            </a>
+        </button>
+
+        <p class="footer-section__powerd">
+            Powered by
+            <a class="w3" href="#">w3.css</a>
+        </p>
+    </footer>
+</body>
+
+</html>

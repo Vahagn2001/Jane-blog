@@ -1,0 +1,19 @@
+.subscribe {
+    padding: 0;
+    background-color: #ffffff;
+    margin-bottom: 3rem;
+}
+
+.subscribe__text {
+    padding: 1rem;
+}
+
+.subscribe__input {
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 0.8rem;
+}
+
+.subscribe__form {
+    padding: 1rem;
+}

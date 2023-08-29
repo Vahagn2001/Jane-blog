@@ -1,0 +1,17 @@
+.description-block {
+    background-color: black;
+    color: white;
+}
+
+.description-block__img {
+    width: 100%;
+}
+
+.description-block__title,
+.description-block__text {
+    padding: 1rem 1rem;
+}
+
+.description-block__img--sm {
+    width: 9rem;
+}

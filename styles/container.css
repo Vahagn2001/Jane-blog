@@ -1,0 +1,16 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 5rem;
+}
+
+.container__articles {
+    width: 70%;
+}
+
+.container__aside  {
+    width: 30%;
+    min-width: 30rem;
+    margin-bottom: 3rem;
+}

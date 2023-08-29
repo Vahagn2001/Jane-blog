@@ -1,0 +1,19 @@
+.social {
+    padding: 0;
+    background-color: #ffffff;
+    margin-bottom: 3rem;
+}
+
+.social__list {
+    display: flex;
+    justify-content: left;
+}
+
+.social__list-item {
+    padding: 0.5rem;
+    font-size: 2.5rem;
+}
+
+.social__list-item:hover {
+    opacity: 50%;
+}
